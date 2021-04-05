@@ -1,0 +1,26 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "moview api with movieql",
+  "main": "index.js",
+  "repository": "https://github.com/Rosa-Kang/moviewql",
+  "author": "Rosa Kang<therosessom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3"
+  },
+   "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+    "now": {
+    "alias": "movieql"
+  }
+}
